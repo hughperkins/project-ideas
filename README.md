@@ -25,4 +25,8 @@ Several do not, eg:
 
 Therefore, a project could be to port one of these libraries, with the goal for example being to port enough layers across to be able to run at least one of the [convnet-benchmarks](https://github.com/soumith/convnet-benchmarks) or [deepmark](https://github.com/DeepMark/deepmark) benchmarks
 
+## Decoupling machine learning libraries from hw-optimized convolutions
+
+I'm sort of working on this myself, so if you pick this, there is a risk it might already have been done before you even start. Who knows? Anyway, the idea is expressed in the following slides, decoupling ml libraries from the convolutional implementation, to give optimal performance on any platform, whilst the ml library keeps everything else in opencl, and is itself also portable.
+
 
