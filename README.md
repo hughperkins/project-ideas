@@ -32,5 +32,5 @@ I'm sort of working on this myself, so if you pick this, there is a risk it migh
 Alternatively, if the architecture has already been accepted and implemented by the community, then a related project could be to choose one specific hardware device, and create an optimized convolutional library implementation for that hardware.  Note that this might not involve much/any OpenCL, although such a design decision would obviously be handled by the implementor.
 
 ![convolution now](https://raw.githubusercontent.com/hughperkins/project-ideas/master/img/convnow.png)
-![proposed conv decoupling](https://raw.githubusercontent.com/hughperkins/project-ideas/master/img/openclconv1b.png)
+![proposed conv decoupling](https://raw.githubusercontent.com/hughperkins/project-ideas/master/img/openclconv1c.png)
 ![virtual platforms](https://raw.githubusercontent.com/hughperkins/project-ideas/master/img/openclconv2.png)
