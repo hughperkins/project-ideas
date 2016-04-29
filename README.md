@@ -29,4 +29,6 @@ Therefore, a project could be to port one of these libraries, with the goal for 
 
 I'm sort of working on this myself, so if you pick this, there is a risk it might already have been done before you even start. Who knows? Anyway, the idea is expressed in the following slides, decoupling ml libraries from the convolutional implementation, to give optimal performance on any platform, whilst the ml library keeps everything else in opencl, and is itself also portable.
 
+Alternatively, if the architecture has already been accepted and implemented by the community, then a related project could be to create one specific hardware device, and create an optimized convolutional library implementation for that hardware.  Note that this might not involve much/any OpenCL, although such a design decision would obviously be handled by the implementor.
+
 
